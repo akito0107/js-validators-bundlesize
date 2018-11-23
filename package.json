@@ -1,0 +1,25 @@
+{
+  "name": "sizecheck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "analyze": "NODE_ENV=production webpack --json | webpack-bundle-size-analyzer"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.0-beta",
+    "favalid": "^0.7.2",
+    "html-webpack-plugin": "^3.2.0",
+    "joi-browser": "^13.4.0",
+    "webpack": "^4.26.0",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-bundle-size-analyzer": "^3.0.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-serve": "^2.0.2"
+  },
+  "dependencies": {
+    "yup": "^0.26.6"
+  }
+}
